@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007acc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  #map-container {
+    height: 500px;
+    width: 100%;
+  }
+  
+  #map {
+    height: 500px;
+    width: 100%;
+}
+  
+  #table-container {
+    overflow-x: auto;
+  }
+  
+  #crime-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #crime-table th, #crime-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #crime-table th {
+    background-color: #007acc;
+    color: white;
+    text-align: left;
+  }
+  
+  #crime-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #crime-table tr:hover {
+    background-color: #ddd;
+  }
+  

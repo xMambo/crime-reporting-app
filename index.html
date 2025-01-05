@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crime Reporting</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/antd/dist/antd.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>Crime Reporting Dashboard</h1>
+  </header>
+  <main>
+    <section id="map-container">
+      <div id="map"></div>
+    </section>
+    <section id="table-container">
+      <table id="crime-table">
+        <thead>
+          <tr>
+            <th>Code</th>
+            <th>Incident</th>
+            <th>Date/Time</th>
+            <th>Location</th>
+            <th>Precinct</th>
+            <th>Updated</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data will be inserted here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/antd/dist/antd.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
