@@ -1,4 +1,4 @@
-Here’s a simple README file for your crime-reporting app:
+
 
 ---
 
